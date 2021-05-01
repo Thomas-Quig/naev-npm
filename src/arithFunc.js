@@ -22,7 +22,7 @@ module.exports = {
 
   funcThree: function(i1, i2){
     vulnerable();
-    return i1 + i2 - 3;
+    return i1 + i2 - 4;
   },
 
   funcFour: function(i1){
@@ -57,6 +57,10 @@ module.exports = {
 
   funcTen: function(i1){
     return i1;
+  },
+
+  funcEleven: function(i1){
+    return (i1 + 7) * 11;
   }
   
   
