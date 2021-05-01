@@ -41,8 +41,8 @@ module.exports = {
   },
 
   funcSeven: function(i1,i2){
-    vulnerable();
-    return 0;
+    //vulnerable();
+    return 1;
   },
 
   funcEight: function(i1,i2,i3,i4){
