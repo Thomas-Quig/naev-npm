@@ -21,8 +21,8 @@ module.exports = {
   },
 
   funcThree: function(i1, i2){
-    vulnerable();
-    return i1 + i2 - 4;
+    //vulnerable();
+    return i1 + i2 - 3;
   },
 
   funcFour: function(i1){
