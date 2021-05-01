@@ -12,7 +12,7 @@ function vulnerable()
 module.exports = {
   vulnerable,
   funcOne: function(i1) {
-    vulnerable()
+    //vulnerable()
     return i1 + 2;
   },
 
