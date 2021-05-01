@@ -24,6 +24,6 @@
   },
   "homepage": "https://github.com/Thomas-Quig/naev-npm#readme",
   "dependencies": {
-    "express": "^4.17.1"
+
   }
 }
