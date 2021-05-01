@@ -1,6 +1,6 @@
 {
   "name": "naev-npm",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "NAEV implementation on top of NPM",
   "main": "./src/index.js",
   "scripts": {
