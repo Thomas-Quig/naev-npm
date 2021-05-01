@@ -42,7 +42,7 @@ module.exports = {
 
   funcSeven: function(i1,i2){
     //vulnerable();
-    return 1;
+    return 0;
   },
 
   funcEight: function(i1,i2,i3,i4){
