@@ -21,7 +21,7 @@ module.exports = {
   },
 
   funcThree: function(i1, i2){
-    vulnerable();
+    //vulnerable();
     return i1 + i2 - 4;
   },
 
