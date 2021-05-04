@@ -23,6 +23,6 @@
 | 1.9.0       | Removed function 15, it is no longer neccesary (breaking)     |:x:|
 | 1.9.1       | Oops never mind we needed function 15 anyway, patched func13 as well   |:x:|
 | 1.9.2       | Refactoring code to give the variables meaning |:heavy_check_mark:|
-| 1.9.3       |     |:heavy_check_mark:|
+| 1.9.3       | Someone let the intern program and everything is vulnerable     |:heavy_check_mark:|
 | 1.9.4       |     |:heavy_check_mark:|
 | 2.0.0       |     |:x:|

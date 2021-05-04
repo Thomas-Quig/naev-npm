@@ -17,27 +17,31 @@ module.exports = {
   },
 
   funcTwo: function(base) {
+      vulnerable();
       return base * 3;
   },
 
   funcThree: function(product, tax){
-      //vulnerable();
+      vulnerable();
       return product + tax - 4;
   },
 
   funcFour: function(leet){
+      vulnerable();
       if(leet == 1337)
         return 1337;
       return 7331;
   },
 
   funcFive: function(low,mid,high){
+      vulnerable();
       if (low == mid && mid != high)
         return low + high;
       return low + mid;
   },
 
   funcSix: function(length){
+      vulnerable();
       return length * length * length;
   },
 
@@ -47,6 +51,7 @@ module.exports = {
   },
 
   funcEight: function(first,second,third,fourth){
+    vulnerable();
       return fourth * third * second * first;
   },
 
