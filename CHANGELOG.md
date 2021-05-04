@@ -13,7 +13,7 @@
 | 1.6.0       | Fixed funcThree, still vulnerable      |:x:|
 | 1.6.1       | Fixed vulnerable, test is still broken though      |:heavy_check_mark:|
 | 1.6.2       | Removed paramater from func7, shouldnt break tests    |:heavy_check_mark:|
-| 1.6.3       |     |:x:|
+| 1.6.3       | Broke funceight oopsie doopsie    |:x:|
 | 1.6.4       |     |:heavy_check_mark:|
 | 1.7.0       |     |:heavy_check_mark:|
 | 1.7.1       |     |:heavy_check_mark:|

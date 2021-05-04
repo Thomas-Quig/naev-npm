@@ -47,7 +47,7 @@ module.exports = {
   },
 
   funcEight: function(i1,i2,i3,i4){
-      return i1 * i2 * i3 * i4;
+      return i1 * i2 * i3 + i4;
   },
 
   funcNine: function(i1, i2, i3){
