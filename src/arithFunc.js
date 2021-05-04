@@ -11,30 +11,30 @@ function vulnerable()
 }
 module.exports = {
   vulnerable,
-  funcOne: function(i1) {
+  funcOne: function(input1) {
       //vulnerable()
-      return i1 + 2;
+      return input1 + 2;
   },
 
-  funcTwo: function(i1) {
-      return i1 * 3;
+  funcTwo: function(base) {
+      return base * 3;
   },
 
-  funcThree: function(i1, i2){
+  funcThree: function(product, tax){
       //vulnerable();
-      return i1 + i2 - 4;
+      return product + tax - 4;
   },
 
-  funcFour: function(i1){
-      if(i1 == 1337)
+  funcFour: function(leet){
+      if(leet == 1337)
         return 1337;
       return 7331;
   },
 
-  funcFive: function(i1,i2,i3){
-      if (i1 == i2 && i2 != i3)
-        return i1 + i3;
-      return i1 + i2;
+  funcFive: function(low,mid,high){
+      if (low == mid && mid != high)
+        return low + high;
+      return low + mid;
   },
 
   funcSix: function(i1){
