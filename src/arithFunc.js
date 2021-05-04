@@ -37,26 +37,26 @@ module.exports = {
       return low + mid;
   },
 
-  funcSix: function(i1){
-      return i1 * i1 * i1;
+  funcSix: function(length){
+      return length * length * length;
   },
 
-  funcSeven: function(i1){
+  funcSeven: function(anything){
       //vulnerable();
       return 2;
   },
 
-  funcEight: function(i1,i2,i3,i4){
-      return i1 * i2 * i3 * i4;
+  funcEight: function(first,second,third,fourth){
+      return fourth * third * second * first;
   },
 
-  funcNine: function(i1, i2, i3){
+  funcNine: function(beep, bop, borp){
       //vulnerable();
-      return i2 * (i3 - i1);
+      return bop * (borp - beep);
   },
 
-  funcTen: function(i1){
-      return i1;
+  funcTen: function(value){
+      return value;
   },
 
   funcEleven: function(i1){
