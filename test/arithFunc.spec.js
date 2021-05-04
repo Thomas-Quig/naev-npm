@@ -35,9 +35,9 @@ test('funcSix', () => {
 });
 
 test('funcSeven', () => {
-    expect(funcSeven(1,2)).toBe(0);
-    expect(funcSeven(3,4)).toBe(0);
-    expect(funcSeven("bad","format")).toBe(0);
+    expect(funcSeven(1,2)).toBe(2);
+    expect(funcSeven(3,4)).toBe(2);
+    expect(funcSeven("bad","format")).toBe(2);
     expect(funcSeven(null,null)).not.toBe(1);
 });
 

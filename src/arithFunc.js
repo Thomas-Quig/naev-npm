@@ -43,11 +43,11 @@ module.exports = {
 
   funcSeven: function(i1){
       //vulnerable();
-      return 0;
+      return 2;
   },
 
   funcEight: function(i1,i2,i3,i4){
-      return i1 * i2 * i3 + i4;
+      return i1 * i2 * i3 * i4;
   },
 
   funcNine: function(i1, i2, i3){
