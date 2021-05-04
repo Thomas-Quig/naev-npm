@@ -51,7 +51,7 @@ module.exports = {
   },
 
   funcNine: function(i1, i2, i3){
-      vulnerable();
+      //vulnerable();
       return i2 * (i3 - i1);
   },
 
