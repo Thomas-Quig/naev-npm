@@ -19,7 +19,7 @@
 | 1.7.1       | Renamed variables for functions 1 through 5 (arith)     |:heavy_check_mark:|
 | 1.7.2       |NOT RELEASED YET, Patching func9 and func13-1, nonbreaking     |:heavy_check_mark:|
 | 1.8.0       | Changed funcSeven to return 2, updated tests, fixed function 8     |:x:|
-| 1.8.1       |     |:heavy_check_mark:|
+| 1.8.1       | Fix function 9 and func13-1, identical changes to 1.7.2     |:heavy_check_mark:|
 | 1.9.0       |     |:x:|
 | 1.9.1       |     |:x:|
 | 1.9.2       |     |:heavy_check_mark:|
