@@ -1,4 +1,5 @@
-const {vulnerable,funcOne,funcTwo,funcThree,funcFour,funcFive,funcSix,funcSeven,funcEight,funcNine,funcTen} = require('../src/arithFunc');
+// I literally cant figure out how to do this any other way
+const {vulnerable,funcOne,funcTwo,funcThree,funcFour,funcFive,funcSix,funcSeven,funcEight,funcNine,funcTen, funcEleven, funcTwelve, funcThirteen, funcFourteen,funcFifteen} = require('../src/arithFunc');
 
 test('funcOne', () => {
     expect(funcOne(1)).toBe(3);
@@ -58,3 +59,34 @@ test('funcTen', () => {
     expect(funcTen("what")).toBe("what");
 });
 
+test('funcEleven', () => {
+   expect(funcEleven(2)).toBe(99);
+   expect(funcEleven(-7)).toBe(0);
+   expect(funcEleven(-16)).toBe(-99);
+   expect(funcEleven(0)).not.toBe(0);
+});
+
+test('funcTwelve', () => {
+    expect(funcTwelve()).toBe(1024);
+    expect(funcTwelve()).not.toBe(1337);
+});
+
+test('funcThirteen', () => {
+    expect(funcThirteen(1,2,3,4)).toBe(2);
+    expect(funcThirteen(0,0,0,0)).toBe(0);
+    expect(funcThirteen(0,1,0,0)).not.toBe(0);
+});
+
+test('funcFourteen', () => {
+    expect(funcFourteen(1,2,3,12)).toBe(6);
+    expect(funcFourteen(1000,2,3,12)).toBe(6);
+    expect(funcFourteen(1000,2,4,12)).toBe(4);
+    
+});
+
+test('funcFifteen', () => {
+    expect(funcFifteen(1,2,3,4,5)).toBe(1);
+    expect(funcFifteen(5,3,4,2,1)).toBe(1);
+    expect(funcFifteen(15,0,0,0,0)).toBe(1);
+    expect(funcFifteen(0,0,0,0,0)).toBe(0);
+});

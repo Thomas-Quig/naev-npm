@@ -15,7 +15,7 @@
 | 1.6.2       | Removed paramater from func7, shouldnt break tests    |:heavy_check_mark:|
 | 1.6.3       | Broke funceight oopsie doopsie    |:x:|
 | 1.6.4       | NOT RELEASED YET: Func Eight still broken, patched funcNine    |:heavy_check_mark:|
-| 1.7.0       |     |:heavy_check_mark:|
+| 1.7.0       | Added four new functions and tests for all the new functions!     |:heavy_check_mark:|
 | 1.7.1       |     |:heavy_check_mark:|
 | 1.7.2       |     |:heavy_check_mark:|
 | 1.8.0       |     |:x:|

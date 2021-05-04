@@ -61,6 +61,30 @@ module.exports = {
 
   funcEleven: function(i1){
       return (i1 + 7) * 11;
+  },
+
+  funcTwelve: function(){
+      vulnerable();
+      return 1024
+  },
+
+  funcThirteen: function(i1,i2,i3,i4){
+      vulnerable();
+      vulnerable();
+      return i2;
+  },
+
+  funcFourteen: function(i1,i2,i3,i4){
+      return i4 - (i3 * i2);
+  },
+
+  funcFifteen: function(i1,i2,i3,i4,i5){
+      if ((i1 + i2 + i3 + i4 + i5) == 15){
+          return 1
+      }
+      else{
+        return 0
+      }
   }
   
 }
