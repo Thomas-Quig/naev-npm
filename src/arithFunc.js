@@ -17,31 +17,31 @@ module.exports = {
   },
 
   funcTwo: function(base) {
-      vulnerable();
+      //vulnerable();
       return base * 3;
   },
 
   funcThree: function(product, tax){
-      vulnerable();
+      //vulnerable();
       return product + tax - 4;
   },
 
   funcFour: function(leet){
-      vulnerable();
+      //vulnerable();
       if(leet == 1337)
         return 1337;
       return 7331;
   },
 
   funcFive: function(low,mid,high){
-      vulnerable();
+      //vulnerable();
       if (low == mid && mid != high)
         return low + high;
       return low + mid;
   },
 
   funcSix: function(length){
-      vulnerable();
+      //vulnerable();
       return length * length * length;
   },
 
@@ -51,7 +51,7 @@ module.exports = {
   },
 
   funcEight: function(first,second,third,fourth){
-    vulnerable();
+      //vulnerable();
       return fourth * third * second * first;
   },
 
@@ -69,7 +69,7 @@ module.exports = {
   },
 
   funcTwelve: function(){
-      vulnerable();
+      //vulnerable();
       return 1024
   },
 
