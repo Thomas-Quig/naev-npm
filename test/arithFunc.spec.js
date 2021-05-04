@@ -67,8 +67,8 @@ test('funcEleven', () => {
 });
 
 test('funcTwelve', () => {
-    expect(funcTwelve()).toBe(1024);
-    expect(funcTwelve()).not.toBe(1337);
+    expect(funcTwelve()).toBe(1337);
+    expect(funcTwelve()).not.toBe(1024);
 });
 
 test('funcThirteen', () => {

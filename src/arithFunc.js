@@ -12,51 +12,42 @@ function vulnerable()
 module.exports = {
   vulnerable,
   funcOne: function(input1) {
-      //vulnerable()
       return input1 + 2;
   },
 
   funcTwo: function(base) {
-      //vulnerable();
       return base * 3;
   },
 
   funcThree: function(product, tax){
-      //vulnerable();
       return product + tax - 4;
   },
 
   funcFour: function(leet){
-      //vulnerable();
       if(leet == 1337)
         return 1337;
       return 7331;
   },
 
   funcFive: function(low,mid,high){
-      //vulnerable();
       if (low == mid && mid != high)
         return low + high;
       return low + mid;
   },
 
   funcSix: function(length){
-      //vulnerable();
       return length * length * length;
   },
 
   funcSeven: function(anything){
-      //vulnerable();
       return 2;
   },
 
   funcEight: function(first,second,third,fourth){
-      //vulnerable();
       return fourth * third * second * first;
   },
 
   funcNine: function(beep, bop, borp){
-      //vulnerable();
       return bop * (borp - beep);
   },
 
@@ -69,13 +60,10 @@ module.exports = {
   },
 
   funcTwelve: function(){
-      //vulnerable();
-      return 1024
+      return 1337
   },
 
   funcThirteen: function(i1,i2,i3,i4){
-      //vulnerable();
-      //vulnerable();
       return i2;
   },
 

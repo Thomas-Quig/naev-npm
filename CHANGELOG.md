@@ -25,4 +25,4 @@
 | 1.9.2       | Refactoring code to give the variables meaning |:heavy_check_mark:|
 | 1.9.4       | Someone let the intern program and everything is vulnerable (This is 1.9.3 on git)    |:heavy_check_mark:|
 | 1.9.5       | Our security team went back and now everything is secure (Non-breaking, 1.9.3 on git)    |:heavy_check_mark:|
-| 2.0.0       |     |:x:|
+| 2.0.0       | Removed all security issues! Changed one function to make it work better (broke), cleaned everything up! Happy for release 2! |:x:|
