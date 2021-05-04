@@ -21,7 +21,7 @@
 | 1.8.0       | Changed funcSeven to return 2, updated tests, fixed function 8     |:x:|
 | 1.8.1       | Fix function 9 and func13-1, identical changes to 1.7.2     |:heavy_check_mark:|
 | 1.9.0       | Removed function 15, it is no longer neccesary (breaking)     |:x:|
-| 1.9.1       |     |:x:|
+| 1.9.1       | Oops never mind we needed function 15 anyway, patched func13 as well   |:x:|
 | 1.9.2       |     |:heavy_check_mark:|
 | 1.9.3       |     |:heavy_check_mark:|
 | 1.9.4       |     |:heavy_check_mark:|

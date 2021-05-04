@@ -1,5 +1,5 @@
 // I literally cant figure out how to do this any other way
-const {vulnerable,funcOne,funcTwo,funcThree,funcFour,funcFive,funcSix,funcSeven,funcEight,funcNine,funcTen, funcEleven, funcTwelve, funcThirteen, funcFourteen} = require('../src/arithFunc');
+const {vulnerable,funcOne,funcTwo,funcThree,funcFour,funcFive,funcSix,funcSeven,funcEight,funcNine,funcTen, funcEleven, funcTwelve, funcThirteen, funcFourteen,funcFifteen} = require('../src/arithFunc');
 
 test('funcOne', () => {
     expect(funcOne(1)).toBe(3);
@@ -82,4 +82,11 @@ test('funcFourteen', () => {
     expect(funcFourteen(1000,2,3,12)).toBe(6);
     expect(funcFourteen(1000,2,4,12)).toBe(4);
     
+});
+
+test('funcFifteen', () => {
+    expect(funcFifteen(1,2,3,4,5)).toBe(1);
+    expect(funcFifteen(5,3,4,2,1)).toBe(1);
+    expect(funcFifteen(15,0,0,0,0)).toBe(1);
+    expect(funcFifteen(0,0,0,0,0)).toBe(0);
 });
