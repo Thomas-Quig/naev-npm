@@ -1,9 +1,9 @@
 | Version     | Changes     | Ground Truth Non-Breaking  |
 | :----------- | :----------- | -------:  |
-| 1.0.0       | First push       |:x:|
+| 1.0.0       | First push       |N/A|
 | 1.1.0       | Added arithFunc and tests    |:x:|
-| 1.2.0       | Added strFunc and tests       |:x:|
-| 1.3.0       | Broke strFunc tests (hell), should be breaking       |:x:|
+| 1.2.0       | Added strFunc and tests       |:heavy_check_mark:|
+| 1.3.0       | Broke strFunc tests (hell), should be breaking       |:heavy_check_mark:|
 | 1.3.1       | Fixed patch in func1, should not break       |:heavy_check_mark:|
 | 1.3.2       | Fixed strFunc test so that hell is gone     |:heavy_check_mark:|
 | 1.3.3       | Secuirty patch funcSeven, non-breaking       |:heavy_check_mark:|
