@@ -21,8 +21,11 @@
 | 1.8.0       | Changed funcSeven to return 2, updated tests, fixed function 8     |:x:|
 | 1.8.1       | Fix function 9 and func13-1, identical changes to 1.7.2     |:heavy_check_mark:|
 | 1.9.0       | Removed function 15, it is no longer neccesary (breaking)     |:x:|
-| 1.9.1       | Oops never mind we needed function 15 anyway, patched func13 as well   |:x:|
+| 1.9.1       | Oops never mind we needed function 15 anyway, patched func13 as well   |:heavy_check_mark:|
 | 1.9.2       | Refactoring code to give the variables meaning |:heavy_check_mark:|
 | 1.9.4       | Someone let the intern program and everything is vulnerable (This is 1.9.3 on git)    |:heavy_check_mark:|
 | 1.9.5       | Our security team went back and now everything is secure (Non-breaking, 1.9.3 on git)    |:heavy_check_mark:|
 | 2.0.0       | Removed all security issues! Changed one function to make it work better (broke), cleaned everything up! Happy for release 2! |:x:|
+
+## Notes
+Upon testing, it turns out that the test comparison found that 1.9.0 and 1.9.1 were actually non-breaking changes! This was a welcome suprise
